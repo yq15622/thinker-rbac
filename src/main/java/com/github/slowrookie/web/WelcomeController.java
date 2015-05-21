@@ -12,7 +12,7 @@ public class WelcomeController {
 	@RequestMapping("/hello")
 	public Map<String, String> hello() {
 		Map<String, String> result = new HashMap<>();
-		result.put("hello", "world!");
+		result.put("hello", "world!");     
 		return result;
 	}
 	
